@@ -113,7 +113,7 @@
                 <div id="content">
                     <div class="form-group">
                         <strong>Quantité</strong>
-                        <input type="number" class="form-control" id="qteId" name="quantite" value=""  min="1" max="100" style="width: 25%;border-radius: 10px;"  required onchange="tab();quantite();">
+                        <input type="number" class="form-control" id="qteId" name="quantite" value=""  min="1" max="100" style="width: 30%;border-radius: 10px;"  required onchange="tab();quantite();">
                         <div id="warning" style="color: #ff0504;font-size: 12px;font-weight: bold"></div>
                     </div>
                     <!------------------------------------------------Dimension----------------------------------------------------------------------------------------------------->
@@ -897,7 +897,7 @@
 
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="deverouId"  name="accessoire" value="Deverrouillage exterieur" onchange="afficheAcce();prixdeverouillage()" >
-                                <label class="form-check-label" for="deverouId"><img src="img/DEVEROUILLAGE.png" />Déverroullage Ext</label>
+                                <label class="form-check-label" for="deverouId"><img src="img/DEVEROUILLAGE.png" />DÉVEROUILLAGE Ext</label>
                             </div>
                         </div>
                         <div class="d-flex">
@@ -909,7 +909,7 @@
 
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="interrepId"  name="accessoire" value="Interrupteur a clef" onchange="afficheAcce();prixinterept()">
-                                <label class="form-check-label" for="interrepId"><img src="img/interrupteur.jpg"/>INTERREPTEUR</label>
+                                <label class="form-check-label" for="interrepId"><img src="img/interrupteur.jpg"/>INTERRUPTEUR</label>
                             </div>
 
 
@@ -1103,8 +1103,7 @@
                         <p><strong>La prise de côtes</strong></p>
                         <p>
 
-                            Pour l’installation d’une porte de garage, la prise des côtes est l’étape la plus importante. <strong>Nao Fermetures</strong> vous donne les indications précises pour mesurer efficacement vos dimensions. Grâce à cette prise de côte, nous allons pouvoir vous établir une estimation de prix la plus précise possible et sur les contraintes que pourrait rencontrer votre projet. Pour effectuer cette étape correctement, prenez soin de bien suivre les indications suivantes.</p>
-
+                            Pour l’installation d’une porte de garage sectionnelle, la prise des cotes est l’étape la plus importante. Nao Fermetures vous donne les indications précises pour mesurer efficacement vos dimensions. Grâce à cette prise de côte, nous allons pouvoir vous établir une estimation de prix la plus précise possible et sur les contraintes que pourrait rencontrer votre projet. Pour effectuer cette étape correctement, prenez soin de bien suivre les indications suivantes.
                     </div>
 
                 </div>
@@ -1115,7 +1114,7 @@
                         <H5> <strong>1- Hauteur de tableau: </strong></H5>
                         <p>
 
-                            Cette mesure est déterminante car elle correspond à la hauteur de passage libre. Posez le mètre du sol au début de votre mur et prenez la mesure de la hauteur. Pour mesurer efficacement, nous vous conseillons de prendre la mesure sur 2 endroits différents, cela vous permettra de vérifier qu’il n’y a pas d’écart. Si vous relevez un écart, nous vous conseillons de conserver la côte la moins importante des deux.
+                            Cette mesure est déterminante car elle correspond à la hauteur de passage libre. Posez le mètre du sol au début de votre mur et prenez la mesure de la hauteur. Pour mesurer efficacement, nous vous conseillons de prendre la mesure sur 3 endroits différents, cela vous permettra de vérifier qu’il n’y a pas d’écart. Si vous relevez un écart, nous vous conseillons de conserver la côte la plus importante des deux.
                         </p>
                     </div>
                     <div class="col-12">
@@ -1130,8 +1129,7 @@
                         <H5>  <STRONG>   1-Largeur de tableau  :</STRONG> </H5>
                         <p>
 
-                            Cette mesure va faire office de largeur de passage libre. Poser le mètre le long de votre baie et mesurez la largeur. Pour mesurer efficacement, nous vous conseillons de prendre la mesure sur 2 endroits différents, une en bas et l’autre en haut. Cette mesure permettra d’assurer l’absence totale d’écart. Si vous relevez un écart, nous vous conseillons de conserver la côte la moins importante des deux.
-
+                            Cette mesure va faire office de largeur de passage libre. Poser le mètre le long de votre baie et mesurez la largeur. Pour mesurer efficacement, nous vous conseillons de prendre la mesure sur 3 endroits différents. Cette mesure permettra d’assurer l’absence totale d’écart. Si vous relevez un écart, nous vous conseillons de conserver la côte la plus importante des deux.
                         </p>
                     </div>
                     <br>
@@ -1147,7 +1145,7 @@
                         <H5>   <strong>   1-Écoinçons Droit (ecd) :</strong> </H5>
                         <p>
 
-                            Il s’agit de la cote qui va définir l’espace entre le<strong>montant droit de la porte</strong> et <strong>le mur droit du garage</strong>. S’il n’y a pas d’espace, indiquez 0 cm. Pour l’installation des éléments de la porte, nous préconisons un écoinçon droit de 75mm (si vous n’avez pas cette distance, nous avons d’autres moyens de fabrication comme la création de faux linteau au design d la porte. Veillez à bien indiquez si des obstacles sont positionnés sur l’écoinçon droit (tuyau, gaines électriques, etc.).
+                            Il s’agit de la cote qui va définir l’espace entre le montant droit de la porte et le mur droit du garage. S’il n’y a pas d’espace, indiquez 0 cm. Pour l’installation des éléments de la porte, nous préconisons un écoinçon droit de 75mm (si vous n’avez pas cette distance, nous vous créerons automatiquement un faux linteau au design de la porte. Attention si des obstacles sont positionnés sur l’écoinçon droit (tuyau, gaines électriques, etc.) il faut le prendre en compte.
                         </p>
                     </div>
                     <div class="col-12">
@@ -1163,8 +1161,7 @@
                         <H5>      <strong>    1-Écoinçons gauche (ecg) </strong> </H5>
                         <p>
 
-                            Il s’agit de la cote qui va définir l’espace entre<strong> le montant droit de la porte </strong>et<strong> le mur droit du garage</strong>. S’il n’y a pas d’espace, indiquez 0 cm. Pour l’installation des éléments de la porte, nous préconisons un écoinçon gauche de 75mm (si vous n’avez pas cette distance, nous avons d’autres moyens de fabrication comme la création de faux linteau au design de la porte). Veillez à bien indiquez si des obstacles sont positionnés sur l’écoinçon gauche (tuyau, gaines électriques, etc.).
-                        </p>
+                            Il s’agit de la cote qui va définir l’espace entre le montant gauche de la porte et le mur gauche du garage. S’il n’y a pas d’espace, indiquez 0 cm. Pour l’installation des éléments de la porte, nous préconisons un écoinçon gauche de 75mm (si vous n’avez pas cette distance, nous vous créerons automatiquement un faux linteau au design de la porte. Attention si des obstacles sont positionnés sur l’écoinçon gauche (tuyau, gaines électriques, etc.) il faut le prendre en compte. </p>
                     </div>
                     <div class="col-12">
 
@@ -1178,8 +1175,7 @@
                     <div class="col-12">
                         <H5>      <strong>      5-Linteau </strong> </H5>
                         <p>
-                            Comme pour la prise de mesure de votre ouverture de baie, prenez la mesure de la hauteur entre <strong>le haut de l’ouverture et le plafond du garage</strong>. Vérifiez la prise de mesure en 2 points afin d’identifier des écarts potentiels Veillez à bien indiquez si des obstacles sont positionnés sur le linteau (tuyau, gaines électriques, etc.).
-
+                            Prenez la mesure de la hauteur entre le haut de l’ouverture et le plafond du garage. Vérifiez la prise de mesure en 3 points afin d’identifier des écarts potentiels. Attention si des obstacles sont positionnés sur l’écoinçon gauche (tuyau, gaines électriques, etc.) il faut le prendre en compte.
                         </p>
                     </div>
                     <div class="col-12">
@@ -1196,8 +1192,7 @@
                         <H5>      <strong>    1-Refoulement </strong> </H5>
                         <p>
 
-                            Cette mesure correspond au potentiel total de votre garage. Cette mesure est importante car elle va définir le <strong>refoulement nécessaire à votre porte de garage</strong>.
-                    </div>
+                            Cette mesure correspond au potentiel total de votre garage. Cette mesure est importante car elle va définir le refoulement nécessaire à votre porte de garage. Cette cote doit être prise au niveau du plafond afin de vérifier qu’aucun obstacle n’empêche l’installation des rails et du moteur.</p></div>
                     <div class="col-12">
 
                         <img src="img/profondeurgarage.jpg"
@@ -1255,13 +1250,14 @@
             <!--/.Content-->
         </div>
     </div>
+
     <!-- Central Modal Medium Success-->
     <!-- Full Height Modal Right -->
     <footer class="container" id="footer" style="background-color: rgb(11,9,22);max-width: 100%;">
 
         <div class="container">
             <a href="" style="color:white;margin-left:35%">Mentions Légales</a> <span style="color: #eeeeee;font-weight: bold">|</span> <a href="" style="color:white;text-align: center;">Contact</a>
-            <p class="m-0 text-center text-white">Copyright &copy; Tous droits réservés.  Configurteur <a href="https://www.nao-fermetures.fr/" style="color: #eeeeee">https://www.nao-fermetures.fr/   2019/2020</a></p>
+            <p class="m-0 text-center text-white">Copyright &copy; Tous droits réservés.  Configurateur <a href="https://www.nao-fermetures.fr/" style="color: #eeeeee">https://www.nao-fermetures.fr/   2019/2020</a></p>
             <a href="" style="color:white;margin-left:35%">Réalisation Nao Fermeture</a>
             <br>
             <p class="stopper-text" style="padding-left: 40%;color:green;font-weight: bold;text-transform: uppercase;"> Suivez Nous </p>
